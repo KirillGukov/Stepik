@@ -1,0 +1,5 @@
+gen = input().lower()
+print("Аденин:", gen.count("а"))
+print("Гуанин:", gen.count("г"))
+print("Цитозин:", gen.count("ц"))
+print("Тимин:", gen.count("т"))
