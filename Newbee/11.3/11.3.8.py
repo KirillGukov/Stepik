@@ -1,6 +1,9 @@
 n = int(input())
 s = []
-for i in range(n + 1):
-    k = input()
-    s.append(k[i])
-print(s)
+k = [input() for _ in range(n)]
+b = int(input())
+for i in k:
+    if len(i) < b:
+        continue
+    if len(i) >= b:
+        print(i[b - 1], end="")
